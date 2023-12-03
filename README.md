@@ -232,3 +232,32 @@ To run tests and coverage, run the following command
 }
 ```
 
+#### Send email Users
+
+```http
+  post /send-email
+```
+
+| Parameter | Type     | Description                       |
+| :-------- | :------- | :-------------------------------- |
+| `to` | `string` | **Required**. Your API key |
+| `subject` | `string` | **Required**. Your API key |
+| `message` | `string` | **Required**. Your API key |
+
+#### Response Success
+```http
+  {
+    "status": true,
+    "message": "Email sent successfully",
+}
+```
+
+#### Response Error
+```http
+  {
+    "message": "Missing required parameters",
+    "status": false,
+    "data": null
+}
+```
+
