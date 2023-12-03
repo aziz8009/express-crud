@@ -2,14 +2,18 @@
 # CRUD Users & Send Email using RabbitMQ
 
 Repo ini dibuat untuk bertujuan untuk test penyelesaian masalah
-yaitu membuat proses Create, Read update,delete data uses
+yaitu membuat proses Create, Read update,delete data user dan menyimpan data ke database menggunakan mongodb
 serta mengirim email ke user secara Asynchronous menggunakan message broker RabbitMQ
 
 
 ## Requirement
 
-- Node js
-- express js
+- Node
+- express 
+- typsecript
+- mongodb
+- rabbitMQ
+
 ## Run Locally
 
 Clone the project
@@ -61,6 +65,10 @@ To run tests and coverage, run the following command
   npm test
 ```
 
+##  Ruuning / Start RabbitMQ
+```
+rabbitmq-server
+```
 
 ## API Reference
 
