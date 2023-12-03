@@ -2,7 +2,8 @@
 # CRUD Users & Send Email using RabbitMQ
 
 Repo ini dibuat untuk bertujuan untuk test penyelesaian masalah
-yaitu membuat proses Create, Read update,delete
+yaitu membuat proses Create, Read update,delete data uses
+serta mengirim email ke user secara Asynchronous menggunakan message broker RabbitMQ
 
 
 ## Requirement
